@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Add /> render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 10px 0 20px;
+}
+
+.c3 {
+  margin: 10px 0;
+}
+
+.c3 span {
+  font-size: 14px;
+  color: #f95e5a;
+}
+
+.c4 {
+  font-size: 14px;
+}
+
+.c5 {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ebeaed;
+  background: #f5f4f6;
+  width: 95%;
+  padding: 10px;
+  font-family: 'Source Sans Pro, Regular',sans-serif;
+}
+
+.c6 {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ebeaed;
+  background: #f5f4f6;
+  width: 95%;
+  padding: 10px;
+  font-family: 'Source Sans Pro, Regular',sans-serif;
+}
+
+.c9 {
+  text-align: right;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.c2 g > circle.a {
+  stroke: #12db89;
+}
+
+.c2 g > path.b {
+  stroke: #12db89;
+  stroke-width: 5px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  min-width: 100%;
+  border: 1px solid;
+  border-color: #ebeaed;
+  background: #f5f4f6;
+  border-radius: 5px;
+}
+
+.c8 {
+  background: inherit;
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 16px;
+  color: #ffffff;
+  background: #365df0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10:hover {
+  background: #2f55cc;
+}
+
+.c10:click {
+  background: #244aa8;
+  background-color: #244aa8;
+}
+
+@media (max-width:768px) {
+  .c10 {
+    width: 100%;
+  }
+}
+
+<div
+    class=""
+  >
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <svg
+          class="c2"
+        >
+          Icon-Plus-Circle-2px.svg
+        </svg>
+      </div>
+      Add new tool
+    </div>
+    <form
+      data-testid="form"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="c3"
+        >
+          <label
+            class="c4"
+            for="title"
+          >
+            Tool Name
+          </label>
+          <input
+            aria-label="title"
+            class="c5"
+            data-testid="title"
+            id="title"
+            name="title"
+            placeholder="Name"
+            value=""
+          />
+        </div>
+        <div
+          class="c3"
+        >
+          <label
+            class="c4"
+            for="link"
+          >
+            Tool Link
+          </label>
+          <input
+            aria-label="link"
+            class="c5"
+            data-testid="link"
+            id="link"
+            name="link"
+            placeholder="Link"
+            value=""
+          />
+        </div>
+        <div
+          class="c3"
+        >
+          <label
+            class="c4"
+            for="description"
+          >
+            Tool description
+          </label>
+          <textarea
+            aria-label="description"
+            class="c6"
+            data-testid="description"
+            id="description"
+            name="description"
+            placeholder="Description"
+            rows="6"
+          />
+        </div>
+        <div
+          class="c3"
+        >
+          <label
+            class="c4"
+            for="tags"
+          >
+            Tags
+          </label>
+          <div
+            class="c7"
+            data-testid="tags-input"
+          >
+            <input
+              class="c8"
+              id="tags"
+              name="tags"
+              placeholder="Add tag and press space"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="c9"
+      >
+        <button
+          class="c10"
+          data-testid="primary-button"
+          type="submit"
+        >
+          Add tool
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Remove /> render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-weight: 600;
+  margin: 10px 0 20px;
+}
+
+.c1 {
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.c2 g > path.a {
+  stroke: #f95e5a;
+  stroke-width: 10px;
+}
+
+.c3 {
+  margin: 20px 0 30px;
+}
+
+.c4 {
+  color: #8f8a9b;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 16px;
+  color: #ffffff;
+  background: #365df0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6:hover {
+  background: #2f55cc;
+}
+
+.c6:click {
+  background: #244aa8;
+  background-color: #244aa8;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #ffffff;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 5px;
+  background: #f95e5a;
+  border-radius: 5px;
+}
+
+.c7:hover {
+  background: #cc4c4c;
+}
+
+.c7:click {
+  background: #a53f3f;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    margin-left: 5px;
+    width: 100%;
+  }
+}
+
+<div
+    class=""
+  >
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <svg
+          class="c2"
+        >
+          Icon-Close-2px.svg
+        </svg>
+      </div>
+      Remove tool
+    </div>
+    <div
+      class="c3"
+    >
+      <p
+        class="c4"
+      >
+        Are you sure you want to remove Google ?
+      </p>
+    </div>
+    <div
+      class="c5"
+    >
+      <button
+        class="c6"
+        data-testid="primary-button"
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        class="c7"
+        data-testid="danger-button"
+        type="button"
+      >
+        Yes, remove
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

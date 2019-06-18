@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-kgoBCf kVSTZj"
+  >
+    <div
+      class="sc-dxgOiQ cvlRKR"
+    >
+      <h1
+        class="sc-kGXeez egQvhw"
+      >
+        VUTTR
+      </h1>
+      <button
+        class="sc-hSdWYo eYuGPD"
+        type="button"
+      >
+        <svg
+          class="sc-eHgmQL ZGrFG"
+        >
+          Icon-Dark Mode 2px.svg
+        </svg>
+        Dark Theme
+      </button>
+    </div>
+    <h2
+      class="sc-kpOJdX heUMOI"
+    >
+      Very Useful Tools to Remember
+    </h2>
+    <div
+      class="sc-dxgOiQ cvlRKR"
+    >
+      <div
+        class="sc-ckVGcZ iywKtY"
+      >
+        <div
+          class="sc-jKJlTe fRBAMh"
+        >
+          <svg
+            class="sc-iAyFgw eXuNiC"
+          >
+            Icon-Search-2px.svg
+          </svg>
+          <input
+            class="sc-eNQAEJ bJNCjU"
+            placeholder="Search"
+            type="text"
+          />
+        </div>
+        <input
+          checked=""
+          class="sc-hMqMXs cPxEnv"
+          type="checkbox"
+        />
+        search in tags only
+      </div>
+      <button
+        class="sc-chPdSV iFkdLK"
+        data-testid="primary-button"
+        type="button"
+      >
+        <div
+          class="sc-kEYyzF hhXvCW"
+        >
+          <svg
+            class="sc-kkGfuU hFQqd"
+          >
+            Icon-Plus-Circle-2px.svg
+          </svg>
+        </div>
+        Add
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

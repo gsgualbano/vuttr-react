@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TagsInput /> render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  min-width: 100%;
+  border: 1px solid;
+  border-color: #ebeaed;
+  background: #f5f4f6;
+  border-radius: 5px;
+}
+
+.c6 {
+  background: inherit;
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.c3 {
+  border: none;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.c4 {
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+}
+
+.c5 g > path.a {
+  stroke: #ffffff;
+  stroke-width: 15px;
+}
+
+.c2 {
+  font-size: 16px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 2px;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background: #f95e5a;
+  border-radius: 13px;
+  padding: 2px;
+  margin: 2px;
+  color: #ffffff;
+}
+
+<div
+    class="c0"
+    data-testid="tags-input"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="c2"
+      >
+        google
+      </p>
+      <button
+        class="c3"
+        data-testid="remove-google"
+        type="button"
+      >
+        <div
+          class="c4"
+        >
+          <svg
+            class="c5"
+          >
+            Icon-Close-2px.svg
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      class="c1"
+    >
+      <p
+        class="c2"
+      >
+        search
+      </p>
+      <button
+        class="c3"
+        data-testid="remove-search"
+        type="button"
+      >
+        <div
+          class="c4"
+        >
+          <svg
+            class="c5"
+          >
+            Icon-Close-2px.svg
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      class="c1"
+    >
+      <p
+        class="c2"
+      >
+        engine
+      </p>
+      <button
+        class="c3"
+        data-testid="remove-engine"
+        type="button"
+      >
+        <div
+          class="c4"
+        >
+          <svg
+            class="c5"
+          >
+            Icon-Close-2px.svg
+          </svg>
+        </div>
+      </button>
+    </div>
+    <input
+      class="c6"
+      id="tags"
+      name="tags"
+      placeholder="Add tag and press space"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

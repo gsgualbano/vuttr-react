@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DangerButton /> render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #ffffff;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 5px;
+  background: #f95e5a;
+  border-radius: 5px;
+}
+
+.c0:hover {
+  background: #cc4c4c;
+}
+
+.c0:click {
+  background: #a53f3f;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    margin-left: 5px;
+    width: 100%;
+  }
+}
+
+<button
+    class="c0"
+    data-testid="danger-button"
+    type="button"
+  >
+    Remove
+  </button>
+</DocumentFragment>
+`;

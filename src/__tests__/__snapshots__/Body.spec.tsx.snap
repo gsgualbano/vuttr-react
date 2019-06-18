@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> renders correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  margin-top: 20px;
+  color: gray;
+  text-align: center;
+}
+
+<div
+    class="c0"
+  >
+    <p
+      class="c1"
+    >
+      No tools yet, to add a new tool press add!
+    </p>
+  </div>
+</DocumentFragment>
+`;
