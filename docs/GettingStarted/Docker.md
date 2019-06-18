@@ -14,19 +14,19 @@ Guia para instalar o Docker-Compose(em Inglês):
 Clone o projeto na pasta de sua preferência.
 
 ```bash
-  git clone
+git clone https://github.com/gsgualbano/vuttr-react.git
 ```
 
 Selecione a pasta do projeto
 
 ```bash
- cd ...
+cd vuttr-react
 ```
 
 em seguida rode o comando
 
 ```bash
- docker-compose up -d
+docker-compose up -d
 ```
 
 Aguarde alguns minutos, e o projeto estará rodando em http://localhost:5000 ou http://127.0.0.1:5000

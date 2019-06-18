@@ -15,13 +15,13 @@ Todas as plataformas(em Inglês): Clique aqui
 Clone o projeto na pasta de sua preferência.
 
 ```bash
-  git clone
+git clone https://github.com/gsgualbano/vuttr-react.git
 ```
 
 Selecione a pasta do projeto
 
 ```bash
- cd ...
+cd vuttr-react
 ```
 
 Execute o seguinte comando para instalar as dependências e aguarde a instalação
