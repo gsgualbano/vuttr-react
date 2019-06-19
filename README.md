@@ -16,6 +16,7 @@ Very Useful Tools to Remember é um web app onde você pode salvar suas ferramen
 - [Removendo](https://vuttr-docs.netlify.com/#/Introdu%C3%A7%C3%A3o?id=section-removendo): Removendo ferramentas
 - [Pesquisando](https://vuttr-docs.netlify.com/#/Introdu%C3%A7%C3%A3o?id=section-pesquisando): Pesquisando ferramentas
 - [Pesquisando por Tag](https://vuttr-docs.netlify.com/#/Introdu%C3%A7%C3%A3o?id=section-pesquisando-por-tag): Pesquisando ferramentas por Tag
+- [Modo Dark](): Tema Dark para o App
 
 ## Rodando a aplicação
 
